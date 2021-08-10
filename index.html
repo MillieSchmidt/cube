@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cube_style.css">
+    <title>Moving Stuff</title>
+</head>
+<body>
+    <style>
+        /* body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        #dodger {
+            position: absolute;
+            bottom: 0;
+            left: 90px;
+            width: 100px;
+            height: 10px;
+            background-color: lightpink;
+        } */
+    </style>
+
+    <!-- <div id="dodger"></div> -->
+    <div class="cube-wrapper">
+        <div class="win">
+            <h1>Congratulations!</h1>
+            <h2> You solved it!</h2>
+            <p>Click the button to start again</p>
+            <button>Start</button>
+        </div>
+        <div class="cube">
+            <div class="cube-row">
+                <div class="cube-cell"></div>
+                <div class="cube-cell"></div>
+                <div class="cube-cell"></div>
+            </div>
+            <div class="cube-row">
+                <div class="cube-cell"></div>
+                <div class="cube-cell"></div>
+                <div class="cube-cell"></div>
+            </div>
+            <div class="cube-row">
+                <div class="cube-cell"></div>
+                <div class="cube-cell"></div>
+                <div class="cube-cell"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script>
+        let dodger = document.getElementById('dodger');
+        dodger.style.backgroundColor = '#FF69B4';
+        
+        document.addEventListener('keydown', function(e) {
+            const dodgerLeft = dodger.getBoundingClientRect().left;
+            const dodgerRight = dodger.getBoundingClientRect().right;
+            const dodgerBottom = dodger.getBoundingClientRect().bottom;
+            const dodgerTop = dodger.getBoundingClientRect().top;
+
+            if (e.which === 37 && dodgerLeft > 0) {
+                dodger.style.left = dodgerLeft - 1 + 'px';
+            } else if (e.which === 39 && dodgerRight < window.innerWidth) {
+                dodger.style.left = dodgerLeft + 1 + 'px';
+            } else if (e.which === 38 && dodgerTop > 0) {
+                dodger.style.top = dodgerTop - 1 + 'px';
+            } else if (e.which === 40 && dodgerBottom < window.innerHeight) {
+                dodger.style.top = dodgerTop + 1 + 'px';
+            }
+        });
+    </script> -->
+    <script src="cube_script.js"></script>
+</body>
+</html>
