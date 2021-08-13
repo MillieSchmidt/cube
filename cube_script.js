@@ -31,6 +31,8 @@ cells[0].addEventListener('touchend', function() {
 
     if (cells[0].style.backgroundColor == cells[1].style.backgroundColor && cells[0].style.backgroundColor == cells[2].style.backgroundColor) {
         rowOne = true;
+    } else {
+        rowOne = false;
     }
 
     if (rowOne == true && rowTwo == true && rowThree == true) {
@@ -44,6 +46,8 @@ cells[1].addEventListener('touchend', function() {
 
     if (cells[0].style.backgroundColor == cells[1].style.backgroundColor && cells[0].style.backgroundColor == cells[2].style.backgroundColor) {
         rowOne = true;
+    } else {
+        rowOne = false;
     }
 
     if (rowOne == true && rowTwo == true && rowThree == true) {
@@ -57,6 +61,8 @@ cells[2].addEventListener('touchend', function() {
 
     if (cells[0].style.backgroundColor == cells[1].style.backgroundColor && cells[0].style.backgroundColor == cells[2].style.backgroundColor) {
         rowOne = true;
+    } else {
+        rowOne = false;
     }
 
     if (rowOne == true && rowTwo == true && rowThree == true) {
@@ -70,6 +76,8 @@ cells[3].addEventListener('touchend', function() {
 
     if (cells[3].style.backgroundColor == cells[4].style.backgroundColor && cells[3].style.backgroundColor == cells[5].style.backgroundColor) {
         rowTwo = true;
+    } else {
+        rowTwo = false;
     }
 
     if (rowOne == true && rowTwo == true && rowThree == true) {
@@ -83,6 +91,8 @@ cells[4].addEventListener('touchend', function() {
 
     if (cells[3].style.backgroundColor == cells[4].style.backgroundColor && cells[3].style.backgroundColor == cells[5].style.backgroundColor) {
         rowTwo = true;
+    } else {
+        rowTwo = false;
     }
 
     if (rowOne == true && rowTwo == true && rowThree == true) {
@@ -96,6 +106,8 @@ cells[5].addEventListener('touchend', function() {
 
     if (cells[3].style.backgroundColor == cells[4].style.backgroundColor && cells[3].style.backgroundColor == cells[5].style.backgroundColor) {
         rowTwo = true;
+    } else {
+        rowTwo = false;
     }
 
     if (rowOne == true && rowTwo == true && rowThree == true) {
@@ -109,6 +121,8 @@ cells[6].addEventListener('touchend', function() {
 
     if (cells[6].style.backgroundColor == cells[7].style.backgroundColor && cells[6].style.backgroundColor == cells[8].style.backgroundColor) {
         rowThree = true;
+    } else {
+        rowThree = false;
     }
 
     if (rowOne == true && rowTwo == true && rowThree == true) {
@@ -122,6 +136,8 @@ cells[7].addEventListener('touchend', function() {
 
     if (cells[6].style.backgroundColor == cells[7].style.backgroundColor && cells[6].style.backgroundColor == cells[8].style.backgroundColor) {
         rowThree = true;
+    } else {
+        rowThree = false;
     }
 
     if (rowOne == true && rowTwo == true && rowThree == true) {
@@ -135,6 +151,8 @@ cells[8].addEventListener('touchend', function() {
 
     if (cells[6].style.backgroundColor == cells[7].style.backgroundColor && cells[6].style.backgroundColor == cells[8].style.backgroundColor) {
         rowThree = true;
+    } else {
+        rowThree = false;
     }
 
     if (rowOne == true && rowTwo == true && rowThree == true) {
