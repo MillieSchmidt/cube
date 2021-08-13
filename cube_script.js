@@ -143,8 +143,7 @@ cells[8].addEventListener('touchend', function() {
 });
 
 function win() {
-    document.querySelector('.win').style.animation = 'winningScreen 8s ease-in forwards';
-    document.querySelector('.cube').style.animation = 'moveRight 8s ease-in forwards';
+    document.querySelector('.page-wrapper').style.animation = 'moveRight 8s ease-in forwards';
     document.querySelector('.cube').style.pointerEvents = 'none';
     rowOne = false;
     rowTwo = false;
