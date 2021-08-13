@@ -4,6 +4,7 @@
 
 html {
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -18,13 +19,13 @@ body {
 
 .page-wrapper {
     display: inline-flex;
-    transform: translateX(0);
+    transform: translateX(-50%);
     overflow-x: hidden;
 }
 
 @keyframes moveRight {
     100% {
-        transform: translateX(50%);
+        transform: translateX(0);
     }
 }
 
