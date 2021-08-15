@@ -8,24 +8,6 @@
     <title>Moving Stuff</title>
 </head>
 <body>
-    <style>
-        /* body {
-            margin: 0;
-            padding: 0;
-            background-color: black;
-        }
-
-        #dodger {
-            position: absolute;
-            bottom: 0;
-            left: 90px;
-            width: 100px;
-            height: 10px;
-            background-color: lightpink;
-        } */
-    </style>
-
-    <!-- <div id="dodger"></div> -->
     <div class="page-wrapper">
         <div class="wrapper">
             <div class="win">
@@ -56,27 +38,7 @@
             </div>
         </div>
     </div>
-    <!-- <script>
-        let dodger = document.getElementById('dodger');
-        dodger.style.backgroundColor = '#FF69B4';
-        
-        document.addEventListener('keydown', function(e) {
-            const dodgerLeft = dodger.getBoundingClientRect().left;
-            const dodgerRight = dodger.getBoundingClientRect().right;
-            const dodgerBottom = dodger.getBoundingClientRect().bottom;
-            const dodgerTop = dodger.getBoundingClientRect().top;
 
-            if (e.which === 37 && dodgerLeft > 0) {
-                dodger.style.left = dodgerLeft - 1 + 'px';
-            } else if (e.which === 39 && dodgerRight < window.innerWidth) {
-                dodger.style.left = dodgerLeft + 1 + 'px';
-            } else if (e.which === 38 && dodgerTop > 0) {
-                dodger.style.top = dodgerTop - 1 + 'px';
-            } else if (e.which === 40 && dodgerBottom < window.innerHeight) {
-                dodger.style.top = dodgerTop + 1 + 'px';
-            }
-        });
-    </script> -->
     <script src="cube_script.js"></script>
 </body>
 </html>

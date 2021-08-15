@@ -161,7 +161,7 @@ cells[8].addEventListener('touchend', function() {
 });
 
 function win() {
-    document.querySelector('.page-wrapper').style.animation = 'moveRight 8s ease-in forwards';
+    document.querySelector('.page-wrapper').style.animation = 'moveRight 6s forwards';
     document.querySelector('.cube').style.pointerEvents = 'none';
     rowOne = false;
     rowTwo = false;
